@@ -12,6 +12,9 @@ I Ищем ссылку перехода на страницу первого т
 
 4. Вставляем это значения в файле ad_id_hash_from_page.py в переменную prod_page_pattern. 
 
+<img width="454" height="274" alt="image" src="https://github.com/user-attachments/assets/a36c6df7-9aeb-44b0-a73f-ca6e28addddc" />
+
+
 
 II Ищем изображение товара Теперь на карточке товара надо найти тег, после которого начинается ссылка на изображение.
 
@@ -32,7 +35,9 @@ host = "https://www.you-site.ru/product/"
 
 
 Запускаем наш питоновский скрипт ad_id_hash_from_page.py, который создаст json-файл, в котором будут id объявлений и хэш-коды изображений.
-<img width="455" height="355" alt="image" src="https://github.com/user-attachments/assets/3ec7bfc5-74b2-464b-a95e-c246aaa45447" />
+
+
+<img align="left" width="455" height="355" alt="image" src="https://github.com/user-attachments/assets/3ec7bfc5-74b2-464b-a95e-c246aaa45447" />
 
 Учтите, что скрипт выравнивает картинки до квадратной формы, путем добавления белых полей. Иначе Директ может не принять изображение либо оно будет обрезаться при показах.
 
