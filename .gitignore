@@ -1,0 +1,8 @@
+.idea
+*.env
+*.py[cod]
+*.py.*
+*.csv
+*.txt
+__pycache__
+config.py
